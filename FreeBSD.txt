@@ -26,5 +26,10 @@ Pakiety
 - wyszukiwanie pakietów zawierających w swojej nazwie wyraz 'samba' (wielkość liter nie ma znaczenia)
 # pkg info
 - informacja o wszystkich zainstalowanych pakietach (łącznie z bibliotekami)
+# pkg fetch bsdrain
+- tylko pobiera pakiet *.txt do katalogu /var/cache/pkg/
+# pkg help
+- pomoc programu pkg
+
 
 
