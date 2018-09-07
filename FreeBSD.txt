@@ -1,0 +1,5 @@
+FreeBSD
+=======
+(na podstawie wersji 10.4 i 11.2)
+
+
