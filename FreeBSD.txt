@@ -1,5 +1,30 @@
-FreeBSD
-=======
++---------+
+| FreeBSD |
++---------+
 (na podstawie wersji 10.4 i 11.2)
+
+Linki
+=====
+https://forums.freebsd.org/
+- oficjalne forum
+https://www.freshports.org/
+- wszystko o pakietach i portach
+
+Pakiety
+=======
+# pkg update
+- aktualizacja listy pakietów
+# pkg upgrade
+- aktualizacja wszystkich zainstalowanych pakietów
+# pkg install mc
+- instalacja pakietu np. mc
+# pkg delete mc
+- deinstalacja pakietu
+# pkg remove mc
+- deinstalacja pakietu
+# pkg search samba
+- wyszukiwanie pakietów zawierających w swojej nazwie wyraz 'samba' (wielkość liter nie ma znaczenia)
+# pkg info
+- informacja o wszystkich zainstalowanych pakietach (łącznie z bibliotekami)
 
 
