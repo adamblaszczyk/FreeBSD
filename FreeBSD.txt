@@ -31,5 +31,16 @@ Pakiety
 # pkg help
 - pomoc programu pkg
 
+Porty
+=====
+Przykład instalacji programu 'bsdrain' za pomocą portów:
+# whereis bsdrain
+bsdrain: /usr/ports/games/bsdrain
+# cd /usr/ports/games/bsdrain
+# make
+
+
+
+
 
 
