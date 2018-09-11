@@ -38,9 +38,23 @@ Przykład instalacji programu 'bsdrain' za pomocą portów:
 bsdrain: /usr/ports/games/bsdrain
 # cd /usr/ports/games/bsdrain
 # make
+# make install
+# make clean
+# rain
+- zainstalowany został program 'rain' w katalogu /usr/local/bin/
 
+# make
+- kompilacja ze źródeł
+# make install
+- instalacja binarki, manuala, itp. do odpowiednich katalogów
+# make clean
+- usuwa pliki tymczasowe
 
+# make install clean
+- kompiluje, instaluje i czyści (3w1)
 
+# make deinstall
+- usuwa binarkę, manuala itp.
 
-
-
+# make fetch
+- tylko pobiera źródła do /usr/ports/distfiles
