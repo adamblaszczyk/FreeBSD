@@ -57,4 +57,4 @@ bsdrain: /usr/ports/games/bsdrain
 - usuwa binarkę, manuala itp.
 
 # make fetch
-- tylko pobiera źródła do /usr/ports/distfiles
+- tylko pobiera źródła do /usr/ports/distfiles/
