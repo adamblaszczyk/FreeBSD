@@ -58,3 +58,11 @@ bsdrain: /usr/ports/games/bsdrain
 
 # make fetch
 - tylko pobiera źródła do /usr/ports/distfiles/
+
+SSH root login
+==============
+/etc/ssh/sshd_config
+--------------------
+  # PermitRootLogin no  -->  PermitRootLogin yes
+  
+# /etc/rc.d/sshd restart
