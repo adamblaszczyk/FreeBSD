@@ -85,6 +85,7 @@ kldload - dołączenie/wczytanie pliku (modułu lub sterownika) do kernela
 kldstat - lista załadowanych (kldload) modułów
 -------
 # kldstat
+# kldstat -v
 
 kldunload - usunięcie modułu lub sterownika z pamięci
 ---------
@@ -93,7 +94,9 @@ kldunload - usunięcie modułu lub sterownika z pamięci
 vidcontrol - ustawienia konsoli tekstowej
 ----------
 # vidcontrol -t 60
-- uruchomienie wygaszacza ekranu po 60 sekundach (np. kldload snake_saver) 
+- uruchomienie wygaszacza ekranu po 60 sekundach (np. kldload snake_saver)
+# vidcontrol -t off
+- wyłączenie wygaszacza ekranu
 # vidcontrol -i adapter
 - informacja o karcie graficznej
 # vidcontrol -i mode
