@@ -67,11 +67,17 @@ SSH root login
   
 # /etc/rc.d/sshd restart
 
-Pożyteczne polecenia
-====================
+Pożyteczne polecenia (alfabetycznie)
+====================================
+date - ustawienia daty i czasu
+----
 # date
 - wyświetla aktualną datę i czas
 # date 2157
 - ustawia godzinę na 21:57
 # date 1809132157
 - ustawia datę na 2018-09-13 i godzinę na 21:57 (! wtedy to pisałem !)
+
+vidcontrol - ustawienia konsoli tekstowej
+----------
+
