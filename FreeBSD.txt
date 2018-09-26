@@ -78,8 +78,22 @@ date - ustawienia daty i czasu
 # date 1809132157
 - ustawia datę na 2018-09-13 i godzinę na 21:57 (! wtedy to pisałem !)
 
+kldload - dołączenie/wczytanie pliku (modułu lub sterownika) do kernela
+-------
+# kldload snake_saver
+
+kldstat - lista załadowanych (kldload) modułów
+-------
+# kldstat
+
+kldunload - usunięcie modułu lub sterownika z pamięci
+---------
+# kldunload snake_saver
+
 vidcontrol - ustawienia konsoli tekstowej
 ----------
+# vidcontrol -t 60
+- uruchomienie wygaszacza ekranu po 60 sekundach (np. kldload snake_saver) 
 # vidcontrol -i adapter
 - informacja o karcie graficznej
 # vidcontrol -i mode
@@ -88,3 +102,21 @@ vidcontrol - ustawienia konsoli tekstowej
 - ustawienie dane trybu karty graficznej dla konsoli (najlepiej wybrać tryb dostosowany do natywnej rozdzielczości matrycy)
 /etc/rc.conf: allscreens_flags="MODE_32"
 
+Moduły jądra
+============
+/boot/kernel/
+
+Wygaszacze ekranu:
+------------------
+/boot/kernel/blank_saver.ko
+beastie_saver.ko
+daemon_saver.ko
+dragon_saver.ko
+fade_saver.ko
+fire_saver.ko
+green_saver.ko
+logo_saver.ko
+rain_saver.ko
+snake_saver.ko
+star_saver.ko
+warp_ssaver.ko
