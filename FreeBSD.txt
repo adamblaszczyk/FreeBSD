@@ -64,6 +64,8 @@ rc.conf - system configuration information - główny plik konfiguracyjny system
 https://www.freebsd.org/cgi/man.cgi?rc.conf(5)
 /etc/rc.conf
 ------------
+  keymap="pl.kbd"
+  - typ klawiatury
   hostname="freebsd11"
   - nazwa hosta
   ifconfig_<interface>="inet 192.168.200.200 netmask 255.255.255.0"
@@ -72,6 +74,18 @@ https://www.freebsd.org/cgi/man.cgi?rc.conf(5)
   - brama domyślna
   allscreens_flags="MODE_32"
   - ustawienie trybu (vidcontrol MODE_32) dla konsoli tekstowej
+  # DEMONY (USŁUGI)
+  dbus_enable="YES"
+  - system komunikacji międzyprocesowej (po instalacji: pkg install xfce | wymagane przez XFCE)
+  firebird_enable="YES"
+  - serwer Firebird SQL (po instalacji: pkg install firebird25-server)
+  hald_enable="YES"
+  - warstwa abstracji sprzętu - HARDWARE ABSTRACTION LAYER (po instalacji: pkg install xfce | wymagane przez XFCE)
+  ntpd_enable="YES"
+  - demon NTP (Network Time Protocol)
+  sshd_enable="YES"
+  - demon SSH (Secure Shell)
+  
 
 Zmiana ustawień sieciowych
 ==========================
