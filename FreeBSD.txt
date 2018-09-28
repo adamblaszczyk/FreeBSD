@@ -59,6 +59,17 @@ bsdrain: /usr/ports/games/bsdrain
 # make fetch
 - tylko pobiera źródła do /usr/ports/distfiles/
 
+rc.conf - system configuration information
+==========================================
+/etc/rc.conf
+------------
+  hostname="freebsd11"
+  - nazwa hosta
+  ifconfig_<interface>="inet 192.168.200.200 netmask 255.255.255.0"
+  - ustawienia sieciowe
+  defaultrouter="192.168.200.1"
+  - brama domyślna
+
 Zmiana ustawień sieciowych
 ==========================
 /etc/rc.conf
@@ -104,6 +115,10 @@ kldstat - lista załadowanych (kldload) modułów
 kldunload - usunięcie modułu lub sterownika z pamięci
 ---------
 # kldunload snake_saver
+
+pciconf - informacja o urządzeniach PCI/AGP
+-------
+# pciconf -lv
 
 vidcontrol - ustawienia konsoli tekstowej
 ----------
