@@ -59,8 +59,9 @@ bsdrain: /usr/ports/games/bsdrain
 # make fetch
 - tylko pobiera źródła do /usr/ports/distfiles/
 
-rc.conf - system configuration information
-==========================================
+rc.conf - system configuration information - główny plik konfiguracyjny systemu
+===============================================================================
+https://www.freebsd.org/cgi/man.cgi?rc.conf(5)
 /etc/rc.conf
 ------------
   hostname="freebsd11"
@@ -69,6 +70,8 @@ rc.conf - system configuration information
   - ustawienia sieciowe
   defaultrouter="192.168.200.1"
   - brama domyślna
+  allscreens_flags="MODE_32"
+  - ustawienie trybu (vidcontrol MODE_32) dla konsoli tekstowej
 
 Zmiana ustawień sieciowych
 ==========================
