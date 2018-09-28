@@ -59,6 +59,20 @@ bsdrain: /usr/ports/games/bsdrain
 # make fetch
 - tylko pobiera źródła do /usr/ports/distfiles/
 
+Zmiana ustawień sieciowych
+==========================
+/etc/rc.conf
+------------
+  ifconfig_em0="inet 192.168.200.200 netmask 255.255.255.0"
+  defaultrouter="192.168.200.1"
+  
+/etc/resolv.conf
+----------------
+  nameserver 8.8.8.8
+  nameserver 1.1.1.1
+  
+# reboot <lub> # /etc/netstart
+
 SSH root login
 ==============
 /etc/ssh/sshd_config
