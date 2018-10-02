@@ -10,6 +10,7 @@ https://forums.freebsd.org/
 https://www.freshports.org/
 - wszystko o pakietach i portach
 
+
 Pakiety
 =======
 # pkg update
@@ -30,6 +31,7 @@ Pakiety
 - tylko pobiera pakiet *.txt do katalogu /var/cache/pkg/
 # pkg help
 - pomoc programu pkg
+
 
 Porty
 =====
@@ -59,6 +61,7 @@ bsdrain: /usr/ports/games/bsdrain
 # make fetch
 - tylko pobiera źródła do /usr/ports/distfiles/
 
+
 rc.conf - system configuration information - główny plik konfiguracyjny systemu
 ===============================================================================
 https://www.freebsd.org/cgi/man.cgi?rc.conf(5)
@@ -78,11 +81,13 @@ https://www.freebsd.org/cgi/man.cgi?rc.conf(5)
   dbus_enable="YES"
   - system komunikacji międzyprocesowej (po instalacji: pkg install xfce | wymagane przez XFCE)
     /usr/local/etc/rc.d/dbus
+    D-Bus - prosty system komunikacji międzyprocesowej, który pozwala programom na wymianę komunikatów między sobą
   firebird_enable="YES"
   - serwer Firebird SQL (po instalacji: pkg install firebird25-server)
   hald_enable="YES"
   - warstwa abstracji sprzętu - HARDWARE ABSTRACTION LAYER (po instalacji: pkg install xfce | wymagane przez XFCE)
     /usr/local/etc/rc.d/hald
+    HAL - ogniwo pośredniczące (interfejs) pomiędzy sprzętem a jądrem systemu operacyjnego
   ntpd_enable="YES"
   - demon NTP (Network Time Protocol)
   slim_enable="YES"
@@ -106,6 +111,7 @@ Zmiana ustawień sieciowych
   
 # reboot <lub> # /etc/netstart
 
+
 SSH root login
 ==============
 /etc/ssh/sshd_config
@@ -113,6 +119,7 @@ SSH root login
   # PermitRootLogin no  -->  PermitRootLogin yes
   
 # /etc/rc.d/sshd restart
+
 
 Pożyteczne polecenia (alfabetycznie)
 ====================================
@@ -156,6 +163,7 @@ vidcontrol - ustawienia konsoli tekstowej
 - ustawienie dane trybu karty graficznej dla konsoli (najlepiej wybrać tryb dostosowany do natywnej rozdzielczości matrycy)
 /etc/rc.conf: allscreens_flags="MODE_32"
 
+
 Moduły jądra
 ============
 /boot/kernel/
@@ -174,6 +182,7 @@ rain_saver.ko
 snake_saver.ko
 star_saver.ko
 warp_saver.ko
+
 
 Ciekawe manuale
 ===============
