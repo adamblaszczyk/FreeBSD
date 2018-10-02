@@ -69,7 +69,7 @@ https://www.freebsd.org/cgi/man.cgi?rc.conf(5)
   hostname="freebsd11"
   - nazwa hosta
   ifconfig_<interface>="inet 192.168.200.200 netmask 255.255.255.0"
-  - ustawienia sieciowe
+  - ustawienia sieciowe (np. ifconfig_em0 ...)
   defaultrouter="192.168.200.1"
   - brama domyślna
   allscreens_flags="MODE_32"
@@ -77,12 +77,17 @@ https://www.freebsd.org/cgi/man.cgi?rc.conf(5)
   # DEMONY (USŁUGI)
   dbus_enable="YES"
   - system komunikacji międzyprocesowej (po instalacji: pkg install xfce | wymagane przez XFCE)
+    /usr/local/etc/rc.d/dbus
   firebird_enable="YES"
   - serwer Firebird SQL (po instalacji: pkg install firebird25-server)
   hald_enable="YES"
   - warstwa abstracji sprzętu - HARDWARE ABSTRACTION LAYER (po instalacji: pkg install xfce | wymagane przez XFCE)
+    /usr/local/etc/rc.d/hald
   ntpd_enable="YES"
   - demon NTP (Network Time Protocol)
+  slim_enable="YES"
+  - Simple Login Manager (po instalacji: pkg install slim slim-themes)
+    /usr/local/etc/rc.d/slim
   sshd_enable="YES"
   - demon SSH (Secure Shell)
   
@@ -169,3 +174,8 @@ rain_saver.ko
 snake_saver.ko
 star_saver.ko
 warp_saver.ko
+
+Ciekawe manuale
+===============
+man hald - HAL daemon
+man hier - struktura katalogów
