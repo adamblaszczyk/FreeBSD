@@ -216,3 +216,9 @@ Serwer X-ów (X.Org X Server - X Window System)
   inny Window Manager (np. FVWM) lub inne Desktop Environment (np. XFCE) jest uruchamiane, gdy jest wpis w pliku ~/.xinit.rc:
     np.  exec fvwm
     lub  exec startxfce4
+    
+Dodatkowe sterowniki do kart graficznych:
+[1] porty np.
+/usr/ports/x11-drivers/xf86-video-trident/
+[2] pakiety np.
+# pkg install xf86-video-trident
