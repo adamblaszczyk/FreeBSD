@@ -195,13 +195,17 @@ Serwer X-ów (X.Org X Server - X Window System)
 # pkg install xorg
 
 # X
+# Xorg
 - czysty X Window System (odpalanie programów z konsoli tekstowej np. # xeyes -display :0)
 # X -configure
+# Xorg -configure
 - tworzy plik konfiguracyjny dla X-ów (~/xorg.conf.new), który można modyfikować
 # X -config /root/xorg.conf.new
+# Xorg -config /root/xorg.conf.new
 - uruchamia serwer X z konfiguracją xorg.conf.new
   konfigurację możemy skopiować do /usr/local/etc/X11/xorg.conf.d/<dowolna_nazwa>.conf i odpalać # startx
 # X -showopts
+# Xorg -showopts
 - sprawdzenie driverów grafiki i dostępnych opcji
 
 # xinit
