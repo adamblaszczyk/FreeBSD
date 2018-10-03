@@ -188,3 +188,27 @@ Ciekawe manuale
 ===============
 man hald - HAL daemon
 man hier - struktura katalogów
+
+
+Serwer X-ów (X.Org X Server - X Window System)
+==============================================
+# pkg install xorg
+
+# X
+- czysty X Window System (odpalanie programów z konsoli tekstowej np. # xeyes -display :0)
+# X -configure
+- tworzy plik konfiguracyjny dla X-ów (~/xorg.conf.new), który można modyfikować
+# X -config /root/xorg.conf.new
+- uruchamia serwer X z konfiguracją xorg.conf.new
+  konfigurację możemy skopiować do /usr/local/etc/X11/xorg.conf.d/<dowolna_nazwa>.conf i odpalać # startx
+# X -showopts
+- sprawdzenie driverów grafiki i dostępnych opcji
+
+# xinit
+- czysty X Window System + xterm
+
+# startx
+- domyślnie uruchamia menadżera okien TWM
+  inny Window Manager (np. FVWM) lub inne Desktop Environment (np. XFCE) jest uruchamiane, gdy jest wpis w pliku ~/.xinit.rc:
+    np.  exec fvwm
+    lub  exec startxfce4
