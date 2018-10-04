@@ -241,7 +241,7 @@ Plik konfiguracyjny: /usr/local/etc/system.fvwm2rc
 Exec xterm
 
 FVWM-Crystal
-===============================
+============
 - nakładka (temat ang. theme) na FVWM
 
 # pkg install fvwm-crystal
