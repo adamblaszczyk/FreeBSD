@@ -233,4 +233,9 @@ exec fvwm
 
 # startx
 
+Plik konfiguracyjny: /usr/local/etc/system.fvwm2rc
+--------------------------------------------------
+# uruchomienie aplikacji przy starcie menadżera
+Exec xterm
+
 
