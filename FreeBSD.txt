@@ -225,6 +225,8 @@ Dodatkowe sterowniki do kart graficznych:
 
 FVWM (F Virtual Window Manager)
 ===============================
+https://www.freebsd.org/cgi/man.cgi?query=fvwm
+
 # pkg install fvwm
 
 ~/.xinitrc
