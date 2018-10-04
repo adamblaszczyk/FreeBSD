@@ -222,3 +222,15 @@ Dodatkowe sterowniki do kart graficznych:
 /usr/ports/x11-drivers/xf86-video-trident/
 [2] pakiety np.
 # pkg install xf86-video-trident
+
+FVWM (F Virtual Window Manager)
+===============================
+# pkg install fvwm
+
+~/.xinitrc
+----------
+exec fvwm
+
+# startx
+
+
