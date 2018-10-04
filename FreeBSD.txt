@@ -240,4 +240,16 @@ Plik konfiguracyjny: /usr/local/etc/system.fvwm2rc
 # uruchomienie aplikacji przy starcie menadżera
 Exec xterm
 
+FVWM-Crystal
+===============================
+- nakładka (temat ang. theme) na FVWM
+
+# pkg install fvwm-crystal
+
+~/.xinitrc
+----------
+exec fvwm-crystal
+
+# startx
+
 
