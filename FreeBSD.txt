@@ -96,6 +96,10 @@ https://www.freebsd.org/cgi/man.cgi?rc.conf(5)
   sshd_enable="YES"
   - demon SSH (Secure Shell)
   
+  Plik /etc/rc.conf można edytować ręcznie lub komendą sysrc:
+  # sysrc hald_enable=YES
+  --> hald_enable="YES"
+  
 
 Zmiana ustawień sieciowych
 ==========================
