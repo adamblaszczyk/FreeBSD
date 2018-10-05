@@ -149,6 +149,8 @@ pciconf - informacja o urządzeniach PCI/AGP
 -------
 # pciconf -lv
 
+uptime - informacja o czasie pracy systemu, ilości zalogowanych użytkowników oraz średnim obciążeniu systemu
+
 vidcontrol - ustawienia konsoli tekstowej
 ----------
 # vidcontrol -t 60
