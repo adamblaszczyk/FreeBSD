@@ -225,20 +225,21 @@ Dodatkowe sterowniki do kart graficznych:
 
 FVWM (F Virtual Window Manager)
 ===============================
+- menadżer okien
 https://www.freebsd.org/cgi/man.cgi?query=fvwm
 
 # pkg install fvwm
 
 ~/.xinitrc
 ----------
-exec fvwm
+  exec fvwm
 
 # startx
 
 Plik konfiguracyjny: /usr/local/etc/system.fvwm2rc
 --------------------------------------------------
-# uruchomienie aplikacji przy starcie menadżera
-Exec xterm
+  # uruchomienie aplikacji przy starcie menadżera
+  Exec xterm
 
 FVWM-Crystal
 ============
@@ -248,8 +249,27 @@ FVWM-Crystal
 
 ~/.xinitrc
 ----------
-exec fvwm-crystal
+  exec fvwm-crystal
 
 # startx
+
+XFCE
+====
+- środowisko graficzne
+
+# pkg install xfce
+
+wymagany wpis w /etc/rc.conf
+----------------------------
+  dbus_enable="YES"
+  hald_enable="YES"  # ???
+  
+ ~/.xinitrc
+ ----------
+   exec startxfce4
+   
+ # startx
+ 
+ można też uruchamiać # startxfce4
 
 
