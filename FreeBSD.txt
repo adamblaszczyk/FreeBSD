@@ -297,3 +297,40 @@ plik konfiguracyjny SLiM-a : /usr/local/etc/slim.conf
 
 # pkg install slim-themes
 - instalacja motywów (tematów) do katalogu: /usr/local/share/slim/themes/
+
+
+Pożyteczne programy (które trzeba doinstalować)
+===============================================
+>>> bsdinfo (CON)
+- informacja o systemie
+# pkg install bsdinfo
+
+>>> doas (CON)
+- wykonuje komendy jako inny uzytkownik np. jako root
+# pkg install doas
+/usr/local/etc/doas.conf
+------------------------
+  permit nopass keepenv adam as root
+$ doas pkg install irssi
+
+>>> mplayer (CON,X)
+- odtwarzacz audio/video - także w konsoli
+# pkg install mplayer
+# mplayer -vo help
+# mplayer -vo xv bbb.avi
+
+>>> sudo (CON)
+- substitute user do - wykonuje komendy jako inny użytkownik np. jako root
+# pkg install sudo
+/usr/local/etc/sudoers
+----------------------
+  adam ALL=(ALL) ALL
+
+>>> xsokoban (X)
+- gra Sokoban
+
+>>> youtube-dl (CON)
+- pobieranie z youtube
+# pkg install youtube_dl
+# youtube-dl https://youtu.be/wflaw8TMYAU
+- pobierze film w formacie MP4
