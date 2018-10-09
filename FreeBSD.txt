@@ -27,8 +27,10 @@ Pakiety
 - wyszukiwanie pakietów zawierających w swojej nazwie wyraz 'samba' (wielkość liter nie ma znaczenia)
 # pkg info
 - informacja o wszystkich zainstalowanych pakietach (łącznie z bibliotekami)
+# pkg info mc
+- informacja, czy pakiet został zainstalowany
 # pkg fetch bsdrain
-- tylko pobiera pakiet *.txt do katalogu /var/cache/pkg/
+- tylko pobiera pakiet *.txz do katalogu /var/cache/pkg/
 # pkg help
 - pomoc programu pkg
 
@@ -278,4 +280,7 @@ wymagany wpis w /etc/rc.conf
  
  można też uruchamiać # startxfce4
 
+SLiM - Simple Login Manager
+===========================
+- X Display Manager
 
