@@ -19,6 +19,8 @@ Pakiety
 - aktualizacja wszystkich zainstalowanych pakietów
 # pkg install mc
 - instalacja pakietu np. mc
+# pkg install nano bsdinfo
+- instalacja dwóch pakietów: nano, bsdinfo
 # pkg delete mc
 - deinstalacja pakietu
 # pkg remove mc
@@ -282,5 +284,16 @@ wymagany wpis w /etc/rc.conf
 
 SLiM - Simple Login Manager
 ===========================
-- X Display Manager
+- X Display Manager - odpowiedzialny za okno logowania
 
+# pkg install slim
+- instalacja SLiM
+
+wymagany wpis w /etc/rc.conf
+----------------------------
+  slim_enable="YES"
+  
+plik konfiguracyjny SLiM-a : /usr/local/etc/slim.conf
+
+# pkg install slim-themes
+- instalacja motywów (tematów) do katalogu: /usr/local/share/slim/themes/
