@@ -37,6 +37,7 @@ lub
 /var/db/firebird/
 - bazy
 /usr/local/libexec/firebird/udf/
+- biblioteki UDF
 
 
 Stworzenie i testowanie lokalnej bazy danych
