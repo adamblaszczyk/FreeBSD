@@ -1,0 +1,12 @@
++----------------------+
+| FreeBSD Samba server |
++----------------------+
+
+Instalacja
+==========
+# pkg search samba
+# pkg install samba48
+
+Ścieżki
+=======
+/var/db/samba4/
