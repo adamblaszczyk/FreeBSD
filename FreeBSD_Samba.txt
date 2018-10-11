@@ -7,6 +7,52 @@ Instalacja
 # pkg search samba
 # pkg install samba48
 
+
+Konfiguracja
+============
+Utworzyć plik konfiguracyjny: /usr/local/etc/smb4.conf
+                              ------------------------
+np.
+
+  [global]
+    workgroup = LAB
+    netbios name = NAS1
+    lanman auth = yes
+    ntlm auth = yes
+  [box]
+    path = /home/winuser/box
+    public = no
+    writable = yes
+    printable = no
+    guest ok = no
+    valid users = winuser
+
+/etc/rc.conf
+------------
+  samba_server_enable="YES"
+  
+# service samba_server start
+
+# testparm
+- testowanie smb4.conf
+
+# adduser
+np. winuser
+
+# pdbedit -a -u winuser
+- dodanie użytkownika do Samba Users Database
+
+# pdbedit -L
+- lista użytkowników Samby
+
+
 Ścieżki
 =======
 /var/db/samba4/
+- bazy danych Samby
+/var/log/samba4/
+- logi
+/usr/local/bin/samba-tool
+- skrypt adminstracyjny
+/usr/local/etc/smb4.conf
+- plik konfiguracyjny
