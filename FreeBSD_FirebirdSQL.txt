@@ -30,3 +30,24 @@ firebird_mode="superclassic"  #lub "superserver"
 lub
 
 # /usr/local/etc/rc.d/firebird start
+
+
+Ścieżki
+=======
+/var/db/firebird/
+- bazy
+/usr/local/libexec/firebird/udf/
+
+
+Stworzenie i testowanie lokalnej bazy danych
+============================================
+# isql-fb
+SQL> create database "test.fdb";
+SQL> connect "test.fdb";
+SQL> create table test (id int not null primary key, name varchar(20));
+SQL> show tables;
+SQL> insert into test values (1, 'John');
+SQL> insert into test valuse (2, 'Joe');
+SQL> commit;
+SQL> select * from test;
+SQL> quit;
