@@ -34,7 +34,7 @@ np.
 # service samba_server start
 
 # testparm
-- testowanie smb4.conf
+- testowanie poprawności pliku /usr/local/etc/smb4.conf
 
 # adduser
 np. winuser
