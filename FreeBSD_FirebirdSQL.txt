@@ -1,7 +1,32 @@
 +------------------------------+
 | FreeBSD: Firebird SQL Server |
 +------------------------------+
-
+( na podstawie wersji 10.4 )
+( 11.1 -> Bus error (core dumped) )
 
 Instalacja
 ==========
+
+Metoda I
+--------
+# pkg update
+# pkg install firebird25-server
+
+Metoda II
+---------
+# cd /usr/ports/databases/firebird25-server
+# make -DPACKAGE_BUILDING
+# make install
+# make clean
+
+/etc/rc.conf
+------------
+firebird_enable="YES"
+# opcjonalnie
+firebird_mode="superclassic"  #lub "superserver"
+
+# reboot
+
+lub
+
+# /usr/local/etc/rc.d/firebird start
