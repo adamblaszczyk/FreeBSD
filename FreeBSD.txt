@@ -11,6 +11,11 @@ https://www.freshports.org/
 - wszystko o pakietach i portach
 
 
+Scroll Lock
+===========
+[ScrollLock] uaktywnia przewijanie ekranu za pomocą strzałek. W niektórych laptopach nie ma tego klawisza - zamiennikiem jest [fn]+[c].
+
+
 Pakiety
 =======
 # pkg update
@@ -173,6 +178,8 @@ vidcontrol - ustawienia konsoli tekstowej
 - ustawienie dane trybu karty graficznej dla konsoli (najlepiej wybrać tryb dostosowany do natywnej rozdzielczości matrycy)
 /etc/rc.conf: allscreens_flags="MODE_32"
 
+whereis - lokalizuje ścieżki programów, ich manuali i źródeł
+-------
 
 Moduły jądra
 ============
