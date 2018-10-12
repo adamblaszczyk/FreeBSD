@@ -345,6 +345,9 @@ $ doas pkg install irssi
 ----------------------
   adam ALL=(ALL) ALL
 
+>>> xmahjongg (X)
+- gra Mahjongg
+
 >>> xsokoban (X)
 - gra Sokoban
 
