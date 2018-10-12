@@ -145,6 +145,16 @@ date - ustawienia daty i czasu
 # date 1809132157
 - ustawia datę na 2018-09-13 i godzinę na 21:57 (! wtedy to pisałem !)
 
+dbus-uuidgen - generuje losowy numer UUID (Universally Unique Identifier)
+------------
+# dbus-uuidgen
+- generuje UUID na konsoli
+# dbus-uuidgen --ensure=/etc/machine-id
+- generuje UUID do pliku /etc/machine-id
+
+dmesg - wyświetla bufor warstwy jądra, umożliwia m.in. wyświetlenie komunikatów startowych ładowania systemu
+-----
+
 kldload - dołączenie/wczytanie pliku (modułu lub sterownika) do kernela
 -------
 # kldload snake_saver
@@ -163,6 +173,7 @@ pciconf - informacja o urządzeniach PCI/AGP
 # pciconf -lv
 
 uptime - informacja o czasie pracy systemu, ilości zalogowanych użytkowników oraz średnim obciążeniu systemu
+------
 
 vidcontrol - ustawienia konsoli tekstowej
 ----------
@@ -180,6 +191,7 @@ vidcontrol - ustawienia konsoli tekstowej
 
 whereis - lokalizuje ścieżki programów, ich manuali i źródeł
 -------
+
 
 Moduły jądra
 ============
