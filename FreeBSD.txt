@@ -129,6 +129,15 @@ Zmiana ustawień sieciowych
   
 # reboot <lub> # /etc/netstart
 
+/etc/wpa_supplicant.conf - tu są wpisane sieci WiFi (SSID + PSK)
+------------------------
+  network={
+    ssid="myssid"
+    psk="mypsk"
+  }
+
+# service netif restart
+- po zmianie ustawień
 
 SSH root login
 ==============
