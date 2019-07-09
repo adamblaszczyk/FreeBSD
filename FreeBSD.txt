@@ -9,7 +9,8 @@ https://forums.freebsd.org/
 - oficjalne forum
 https://www.freshports.org/
 - wszystko o pakietach i portach
-
+http://freebsdexperience.blogspot.com/
+- blog o FreeBSD
 
 Scroll Lock
 ===========
