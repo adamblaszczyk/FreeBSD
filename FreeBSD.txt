@@ -104,6 +104,10 @@ https://www.freebsd.org/cgi/man.cgi?rc.conf(5)
     /usr/local/etc/rc.d/slim
   sshd_enable="YES"
   - demon SSH (Secure Shell)
+  sendmail_enable="NONE"
+  - wyłącza wszystkie demony sendmaila
+  sendmail_enable="NO"
+  - wyłącza tylko Inbound Sendmail daemon
   
   Plik /etc/rc.conf można edytować ręcznie lub komendą sysrc:
   # sysrc hald_enable=YES
