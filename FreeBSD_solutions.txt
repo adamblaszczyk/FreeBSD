@@ -1,0 +1,17 @@
+Sendmail powoduje długie uruchamianie systemu
+=============================================
+
+Przy starcie systemu wyskakują następujące komunikaty, które wstrzymują uruchamianie systemu:
+
+Jul 12 19:22:42 <host_name>sm-mta[480]: My unqualified host name (<host_name>) unknown; sleeping for retry
+Jul 12 19:23:42 <host_name>sm-mta[480]: unable to qualify my own domain name (<host_name>) -- using short name
+Jul 12 19:23:42 <host_name>sm-msp-queue[484]: My unqualified host name (<host_name>) unknown; sleeping for retry
+Jul 12 19:24:43 <host_name>sm-msp-queue[484]: unable to qualify my own domain name (<host_name>) -- using short name
+
+Rozwiązanie
+-----------
+
+W pliku /etc/rc.conf dopisać:
+
+  sendmail_enable="NONE"
+  
