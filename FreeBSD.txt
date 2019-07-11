@@ -87,6 +87,8 @@ https://www.freebsd.org/cgi/man.cgi?rc.conf(5)
   - brama domyślna
   allscreens_flags="MODE_32"
   - ustawienie trybu (vidcontrol MODE_32) dla konsoli tekstowej
+  allscreens_kbdflags="-b quiet.off"
+  - wyłączenie dźwięku BEEP
   # DEMONY (USŁUGI)
   dbus_enable="YES"
   - system komunikacji międzyprocesowej (po instalacji: pkg install xfce | wymagane przez XFCE)
