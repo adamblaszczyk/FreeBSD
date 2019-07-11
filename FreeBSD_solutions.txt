@@ -16,6 +16,17 @@ W pliku /etc/rc.conf dopisać:
   sendmail_enable="NONE"
 
 
+Wyłączenie dźwięku BEEP przy naciskaniu klawiszy BKSP, TAB, ...
+===============================================================
+Na chwilę
+# kbdcontrol -b quiet.off
+
+Na stałe
+W pliku /etc/rc.conf dopisać:
+
+  allscreens_kbdflags="-b quiet.off"
+
+
 How to boot with messed up /boot/loader.conf ?
 ==============================================
 https://forums.freebsd.org/threads/how-to-boot-with-messed-up-boot-loader-conf.64019/
