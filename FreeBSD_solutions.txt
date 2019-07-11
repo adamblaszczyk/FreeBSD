@@ -14,4 +14,25 @@ Rozwiązanie
 W pliku /etc/rc.conf dopisać:
 
   sendmail_enable="NONE"
-  
+
+
+How to boot with messed up /boot/loader.conf ?
+==============================================
+https://forums.freebsd.org/threads/how-to-boot-with-messed-up-boot-loader-conf.64019/
+
+>>
+I messed up my /boot/loader.conf by adding 'vesa_load="YES"' without installing the VESA files first -- n00b mistake...
+
+<<
+On FreeBSD 12.0 RELEASE, here's what worked for me:
+
+1 - press the ESC key at the boot menu to get the loader prompt
+2 - at the OK prompt, type set module_blacklist="vesa"
+3 - at the OK prompt, type boot
+4 - Once in multi-user model, edit /boot/loader.conf (or /boot/loader.conf.local) to fix the problem
+
+This may work for other kernel modules that hang your boot process.
+
+You may want to check the contents of the module_blacklist variable from the OK prompt (via the show command) to see what other modules are disabled. You can add them to the blacklist if necessary (set module_blacklist="vesa drm")
+
+I'd hoped that removing /boot/loader.conf.local from the "loader_conf_files" variable (loader.conf(5)) would change the boot process, but that didn't seem to have any effect.
