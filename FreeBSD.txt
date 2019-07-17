@@ -1,7 +1,7 @@
 +---------+
 | FreeBSD |
 +---------+
-(na podstawie wersji 10.4 i 11.2)
+(na podstawie wersji 10.4 11.2 oraz 12.0)
 
 Linki
 =====
