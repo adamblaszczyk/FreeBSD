@@ -333,6 +333,47 @@ plik konfiguracyjny SLiM-a : /usr/local/etc/slim.conf
 # pkg install slim-themes
 - instalacja motywów (tematów) do katalogu: /usr/local/share/slim/themes/
 
+KDE Plasma 5
+============
+- środowisko graficzne
+
+# pkg update
+# pkg install xorg
+# pkg install kde5
+- może zająć do 5GB
+# pkg install kdevelop
+- może zająć do 2GB
+
+# sysrc dbus_enable=YES
+- powoduje wpis w /etc/rc.conf
+------------------------------
+  dbus_enable="YES"
+
+wpisy w pliku /etc/sysctl.conf niezbędne do prawidłowego działania niektórych aplikacji KDE
+-------------------------------------------------------------------------------------------
+  net.local.stream.recvspace=65536
+  net.local.stream.sendspace=65536
+
+# reboot
+
+ ~/.xinitrc
+ ----------
+   exec startkde
+   
+ # startx
+
+SDDM - Simple Desktop Display Manager
+=====================================
+- X Display Manager - odpowiedzialny za okno logowania
+
+# pkg install sddm
+- instalacja SDDM
+
+wymagany wpis w /etc/rc.conf
+----------------------------
+  sddm_enable="YES"
+
+Nie da się logować kontem 'root'
 
 Pożyteczne programy (które trzeba doinstalować)
 ===============================================
