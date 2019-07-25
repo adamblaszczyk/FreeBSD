@@ -184,6 +184,15 @@ kldunload - usunięcie modułu lub sterownika z pamięci
 ---------
 # kldunload snake_saver
 
+mixer - ustawianie poziomu głośności miksera karty dźwiękowej
+-----
+# mixer
+- informacja o ustawieniach miksera
+# mixer vol 83:83
+- ustawienie głośności urządzenia 'vol' na L=83 i P=83
+# mixer pcm 90
+- ustawienie głośności urządzenia 'pcm' na L=90 i P=90
+
 pciconf - informacja o urządzeniach PCI/AGP
 -------
 # pciconf -lv
