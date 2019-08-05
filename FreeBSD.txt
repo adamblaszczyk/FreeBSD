@@ -429,6 +429,6 @@ np. COM1 przez konwerter FTDI USB/RS232
 COM1(przez USB) == /dev/ttyu0 lub /dev/cuaU0 lub ucom1
 # cu -l /dev/ttyU0 -s 38400
 # cu -l /dev/cuaU0 -s 38400
-- cu	-- call	UNIX
+- cu -- call	UNIX
 # tip ucom1 -38400
 - tip -- connect to a remote	system
