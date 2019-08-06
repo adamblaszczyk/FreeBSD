@@ -425,7 +425,7 @@ $ doas pkg install irssi
 
 Komunikacja przez port szeregowy
 ================================
-np. COM1 przez konwerter FTDI USB/RS232
+np. COM1 przez konwerter FTDI USB/RS232[8]
 COM1(przez USB) == /dev/ttyu0 lub /dev/cuaU0 lub ucom1
 # cu -l /dev/ttyU0 -s 38400
 # cu -l /dev/cuaU0 -s 38400
@@ -442,4 +442,8 @@ COM1(przez USB) == /dev/ttyu0 lub /dev/cuaU0 lub ucom1
     n    - parity [n - none, o - odd, e - even]
     1    - stop bits
     N    - flow control [N - None, X - XON/XOFF, R - RTS/CTS, D - DSR/DTR
+
+Ramka danych UART (Universal Asynchronous Receiver-Transmitter):
+(Idle) Start 0 1 2 3 4 [5] [6] [7] [8] [Parity] Stop [Stop] (Idle)
+             |----------data---------|
 
