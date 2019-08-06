@@ -432,3 +432,14 @@ COM1(przez USB) == /dev/ttyu0 lub /dev/cuaU0 lub ucom1
 - cu -- call UNIX
 # tip ucom1 -38400
 - tip -- connect to a remote system
+
+>>> putty (X)
+# pkg install putty
+
+# putty -serial /dev/ttyU0 -sercfg 9600,8,n,1,N
+    9600 - speed (baud)
+    8    - data bits [5..9]
+    n    - parity [n - none, o - odd, e - even]
+    1    - stop bits
+    N    - flow control [N - None, X - XON/XOFF, R - RTS/CTS, D - DSR/DTR
+
