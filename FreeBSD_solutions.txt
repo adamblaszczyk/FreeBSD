@@ -1,3 +1,26 @@
+Klawiatura laptopa nie ma klawisza [ScrollLock]
+================================================
+Ustawimy [Ctrl]+[CapsLock] jako ScrollLock.
+
+Zrzucamy mapę klawiatury do pliku:
+# kbdcontrol -d > mykeys
+
+Zmieniamy mapę klawiatury w pliku mykeys (3 kolumna: clock -> slock):
+
+#                                                         alt
+#                            cntrl          alt    alt   cntrl lock
+# code  base   shift  cntrl  shift  alt    shift  cntrl  shift state
+# ------------------------------------------------------------------
+  058   clock  clock  slock  clock  clock  clock  clock  clock   0
+  
+Sprawdzenie czy działa:
+# kbdcontrol -l mykeys
+
+Ustawienie na stałe:
+W pliku /etc/rc.conf dopisać:
+keymap="/root/mykeys"
+
+
 Sendmail powoduje długie uruchamianie systemu
 =============================================
 
