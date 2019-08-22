@@ -308,6 +308,24 @@ FVWM-Crystal
 
 # startx
 
+i3 (i3 Window Manager)
+======================
+https://i3wm.org/
+https://fedoramagazine.org/getting-started-i3-window-manager/
+- menadżer okien
+
+# pkg install i3 i3status i3lock dmenu
+- i3       - główny pakiet i3
+- i3status - status-bar na dole ekranu
+- i3lock   - screen locker
+- dmenu    - menu do uruchamiania programów
+
+~/.xinitrc
+----------
+  exec i3
+
+# startx
+
 XFCE
 ====
 - środowisko graficzne
