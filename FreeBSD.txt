@@ -264,6 +264,7 @@ Serwer X-ów (X.Org X Server - X Window System)
 
 # xinit
 - czysty X Window System + xterm
+  wpisanie 'exit' w xterm powoduje wyjście do terminala tekstowego
 
 # startx
 - domyślnie uruchamia menadżera okien TWM
