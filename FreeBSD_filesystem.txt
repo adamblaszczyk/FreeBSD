@@ -1,3 +1,17 @@
 # man hier
 
+---------------------------------------------------------------------------------------------------------------------------------
+/etc/                - system configuration files and scripts
+                     - pliki konfiguracyjne systemu i skrypty
+
+/etc/rc.conf         - system configuration information
+                     - główny plik konfiguracyjny systemu
+
+---------------------------------------------------------------------------------------------------------------------------------
+/var/                - multi-purpose log, temporary, transient, and spool files
+                     - pliki dziennika, pliki tymczasowe, przejściowe i buforowe
+
 /var/run/dmesg.boot  - copy of the boot messages
+                     - zapis komunikatów podczas rozruchu systemu
+                       
+---------------------------------------------------------------------------------------------------------------------------------
