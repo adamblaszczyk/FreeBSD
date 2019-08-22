@@ -50,6 +50,23 @@ W pliku /etc/rc.conf dopisać:
   allscreens_kbdflags="-b quiet.off"
 
 
+Nie działają słuchawki
+======================
+Ustalamy urządzenia wyjściowe audio:
+# cat /dev/sndstat
+
+  Installed devices:
+  pcm0: <Intel Haswell (HDMI/DP 8ch)> (play)
+  pcm1: <Conexant CX20751/2 (Analog)> (play/rec)
+  pcm2: <Conexant CX20751/2 (Right Analog)> (play/rec) default
+
+pcm1 - głośniki
+pcm2 - słuchawki
+
+Przełączenie na słuchawki:
+# sysctl hw.snd.default_unit=2
+
+
 How to boot with messed up /boot/loader.conf ?
 ==============================================
 https://forums.freebsd.org/threads/how-to-boot-with-messed-up-boot-loader-conf.64019/
