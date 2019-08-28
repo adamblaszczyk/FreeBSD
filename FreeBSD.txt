@@ -217,6 +217,16 @@ vidcontrol - ustawienia konsoli tekstowej
 whereis - lokalizuje ścieżki programów, ich manuali i źródeł
 -------
 
+zpool - zarządzanie pulami dyskowymi ZFS
+-----
+# zpool list
+- lista puli dyskowych
+# zpool status
+- status puli dyskowych
+# zpool status -x
+- kondycja (health) puli dyskowych
+# zpool get all nazwa_puli
+- wszystkie właściwości puli dyskowej o nazwie 'nazwa_puli'
 
 Moduły jądra
 ============
