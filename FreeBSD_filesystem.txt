@@ -4,6 +4,9 @@
 /etc/                - system configuration files and scripts
                      - pliki konfiguracyjne systemu i skrypty
 
+/etc/fstab           - file systems table
+                     - tablica systemów plików (co i gdzie jest montowane w systemie plików) 
+
 /etc/rc.conf         - system configuration information
                      - główny plik konfiguracyjny systemu
 
