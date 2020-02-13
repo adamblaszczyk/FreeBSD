@@ -396,7 +396,8 @@ wpisy w pliku /etc/sysctl.conf niezbędne do prawidłowego działania niektóryc
 
  ~/.xinitrc
  ----------
-   exec startkde
+   #exec startkde
+   exec startplasma-x11
    
  # startx
 
