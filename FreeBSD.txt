@@ -193,6 +193,14 @@ mixer - ustawianie poziomu głośności miksera karty dźwiękowej
 # mixer pcm 90
 - ustawienie głośności urządzenia 'pcm' na L=90 i P=90
 
+mount - montowanie systemu plików
+-----
+# mount -t msdos /dev/da0s1 /mnt/usb
+- montowanie pendrive (montujemy partycję a nie urządzenie)
+  -t vfat !!!
+# umount /mnt/usb
+- odmontowanie pendrive
+
 pciconf - informacja o urządzeniach PCI/AGP
 -------
 # pciconf -lv
