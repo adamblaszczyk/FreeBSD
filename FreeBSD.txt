@@ -201,6 +201,10 @@ mount - montowanie systemu plików
 # umount /mnt/usb
 - odmontowanie pendrive
 
+# kldload ext2fs
+# mount -t ext2fs -o ro /dev/ada0s5 /mnt/linux
+- zamontowanie linuksowego systemu plików EXT4, tylko do odczytu
+
 pciconf - informacja o urządzeniach PCI/AGP
 -------
 # pciconf -lv
