@@ -330,6 +330,18 @@ FVWM-Crystal
 
 # startx
 
+Enlightenment
+=============
+- menadżer okien
+https://www.enlightenment.org/
+
+# pkg install enlightenment
+
+~/.xinitrc
+----------
+  exec enlightenment_start
+
+# startx
 i3 (i3 Window Manager)
 ======================
 https://i3wm.org/
