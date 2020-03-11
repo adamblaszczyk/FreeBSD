@@ -499,6 +499,13 @@ $ doas pkg install irssi
 # youtube-dl https://youtu.be/wflaw8TMYAU
 - pobierze film w formacie MP4
 
+
+Status baterii laptopa
+======================
+# apm
+# sysctl hw.acpi.battery
+
+
 Komunikacja przez port szeregowy
 ================================
 np. COM1 przez konwerter FTDI USB/RS232[8]
