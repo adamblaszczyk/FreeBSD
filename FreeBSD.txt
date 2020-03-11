@@ -266,6 +266,12 @@ man hald - HAL daemon
 man hier - struktura katalogów
 
 
+Aktualizacja całego systemu do wyższej wersji
+=============================================
+# rm -rf /var/db/freebsd-update/*
+# freebsd-update -r 12.1-RELEASE upgrade
+
+
 Serwer X-ów (X.Org X Server - X Window System)
 ==============================================
 # pkg install xorg
