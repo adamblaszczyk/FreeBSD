@@ -268,8 +268,20 @@ man hier - struktura katalogów
 
 Aktualizacja całego systemu do wyższej wersji
 =============================================
+https://www.freebsd.org/releases/12.1R/installation.html#upgrade
+
 # rm -rf /var/db/freebsd-update/*
+(# freebsd-update fetch)
+(# freebsd-update install)
 # freebsd-update -r 12.1-RELEASE upgrade
+# freebsd-update install
+# reboot
+# freebsd-update install
+# freebsd-update install
+# reboot
+# pkg-static install -f pkg
+# pkg update
+# pkg upgrade
 
 
 Serwer X-ów (X.Org X Server - X Window System)
