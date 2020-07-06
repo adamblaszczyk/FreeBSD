@@ -209,6 +209,11 @@ pciconf - informacja o urządzeniach PCI/AGP
 -------
 # pciconf -lv
 
+pw - zarządzanie użytkownikami i grupami
+--
+# pw groupmod video -m adam
+- dodanie użytkownika do grupy 'video'
+
 uptime - informacja o czasie pracy systemu, ilości zalogowanych użytkowników oraz średnim obciążeniu systemu
 ------
 
