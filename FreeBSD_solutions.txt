@@ -66,6 +66,15 @@ pcm2 - słuchawki
 Przełączenie na słuchawki:
 # sysctl hw.snd.default_unit=2
 
+Nie działają X-y na karcie Intel
+================================
+np. HP Mini 2140 (Mobile Intel GMA 950 - 1024x576)
+
+https://wiki.freebsd.org/Graphics#Hardware_Support
+
+Dodanie użytkownika do grupy 'video':
+# pw groupmod video -m adam
+
 
 How to boot with messed up /boot/loader.conf ?
 ==============================================
