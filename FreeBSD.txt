@@ -485,6 +485,10 @@ exec /usr/local/bin/gnome-session
 
 Pożyteczne programy (które trzeba doinstalować)
 ===============================================
+>>> audacious
+- odtwarzacz audio podobny do Winamp
+# pkg install audacious
+
 >>> bsdinfo (CON)
 - informacja o systemie
 # pkg install bsdinfo
@@ -502,6 +506,10 @@ $ doas pkg install irssi
 # pkg install mplayer
 # mplayer -vo help
 # mplayer -vo xv bbb.avi
+
+>>> screenfetch (CON)
+- informacja o systemie
+# pkg install screenfetch
 
 >>> sudo (CON)
 - substitute user do - wykonuje komendy jako inny użytkownik np. jako root
@@ -552,4 +560,12 @@ COM1(przez USB) == /dev/ttyu0 lub /dev/cuaU0 lub ucom1
 Ramka danych UART (Universal Asynchronous Receiver-Transmitter):
 (Idle) Start 0 1 2 3 4 [5] [6] [7] [8] [Parity] Stop [Stop] (Idle)
              |----------data---------|
+
+
+[ ==========================================================================End-Of-File========================================================================== ]
+[ TODO:                                                                                                                                                           ]
+
+# pkg install gkrellm2
+- gkrellmd
+
 
