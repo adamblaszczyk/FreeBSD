@@ -31,6 +31,8 @@ Pakiety
 - deinstalacja pakietu
 # pkg remove mc
 - deinstalacja pakietu
+# pkg clean
+- czyszczenie pamięci cache ze starymi pakietami (zwalnia miejsce na dysku!)
 # pkg search samba
 - wyszukiwanie pakietów zawierających w swojej nazwie wyraz 'samba' (wielkość liter nie ma znaczenia)
 # pkg info
