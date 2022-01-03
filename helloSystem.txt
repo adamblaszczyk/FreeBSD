@@ -1,0 +1,30 @@
++-------------+
+| helloSystem |
++-------------+
+(na podstawie wersji 0.7.0 <FreeBSD 13.0>)
+
+
+Linki
+=====
+https://hellosystem.github.io/docs/
+
+
+Zmiana ustawień sieciowych
+==========================
+/etc/rc.conf
+------------
+  ifconfig_re0="inet 192.168.200.200 netmask 255.255.255.0"
+  defaultrouter="192.168.200.1"
+  
+/etc/resolvconf.conf
+--------------------
+  name_servers="8.8.8.8 8.8.4.4"
+  
+# resolvconf -u
+|
+spowoduje wpis w /etc/resolv.conf
+---------------------------------
+  nameserver 8.8.8.8
+  nameserver 8.8.4.4
+
+# reboot
