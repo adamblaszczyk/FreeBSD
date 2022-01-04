@@ -520,17 +520,22 @@ $ doas pkg install irssi
 ----------------------
   adam ALL=(ALL) ALL
 
->>> xmahjongg (X)
-- gra Mahjongg
-
->>> xsokoban (X)
-- gra Sokoban
-
 >>> youtube-dl (CON)
 - pobieranie z youtube
 # pkg install youtube_dl
 # youtube-dl https://youtu.be/wflaw8TMYAU
 - pobierze film w formacie MP4
+
+Gry
+===
+>>> ballerburg (X)
+- gra Ballerburg
+
+>>> xmahjongg (X)
+- gra Mahjongg
+
+>>> xsokoban (X)
+- gra Sokoban
 
 
 Status baterii laptopa
