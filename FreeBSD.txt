@@ -367,6 +367,7 @@ https://www.enlightenment.org/
   exec enlightenment_start
 
 # startx
+
 i3 (i3 Window Manager)
 ======================
 https://i3wm.org/
@@ -382,6 +383,19 @@ https://fedoramagazine.org/getting-started-i3-window-manager/
 ~/.xinitrc
 ----------
   exec i3
+
+# startx
+
+Fluxbox
+=======
+- menadżer okien
+http://fluxbox.org/
+
+# pkg install fluxbox
+
+~/.xinitrc
+----------
+  exec startfluxbox
 
 # startx
 
