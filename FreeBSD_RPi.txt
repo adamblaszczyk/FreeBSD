@@ -1,6 +1,6 @@
 Raspberry Pi 2 Model B V1.1
 ===========================
-ARM Cortex-A7 r0p0
+ARM Cortex-A7 r0p0 (32-bit)
 1GB RAM
 MicroSD
 
