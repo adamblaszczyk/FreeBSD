@@ -523,7 +523,11 @@ $ doas pkg install irssi
 # mplayer -vo help
 # mplayer -vo xv bbb.avi
 
->>> screenfetch (CON)
+>>> neofetch (CON,X)
+- informacja o systemie
+# pkg install neofetch
+
+>>> screenfetch (CON,X)
 - informacja o systemie
 # pkg install screenfetch
 
