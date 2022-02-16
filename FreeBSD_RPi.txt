@@ -1,0 +1,18 @@
+Raspberry Pi 2 Model B V1.1
+===========================
+ARM Cortex-A7 r0p0
+1GB RAM
+MicroSD
+
+FreeBSD 12.3-RELEASE armv7
+--------------------------
+https://download.freebsd.org/releases/arm/armv7/ISO-IMAGES/12.3/FreeBSD-12.3-RELEASE-arm-armv7-RPI2.img.xz
+- nagrać obraz *.img na kartę pamięci MicroSD (np. balenaEtcher)
+- uruchomić RPi z kartą pamięci
+- domyślne hasło root:root
+
+Na architekturze ARM7 można uruchomić:
+- xorg
+- fluxbox
+- otter-browser
+- dosbox
