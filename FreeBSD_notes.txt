@@ -1,0 +1,10 @@
+FreeBSD versions
+================
+CURRENT is the latest "beta" software.
+This is what the developers are working on mainly. It has minimal testing, basically if it compiles they'll push it into the repository. If you're interested in developing or testing development version this is what you're looking for.
+
+RELEASE is the software as it first appeared under a certain release version.
+This is the software exactly as it was "released". If you're running 9.3-RELEASE then it is that version as originally released, without base or kernel updates. If you update a RELEASE version it will append a revision tag. This is typically what people run when they used precompiled versions of FreeBSD.
+
+STABLE is the latest "supported" software within a version branch.
+This is tested versions of the software published between releases. It has more rigerous testing than the Current branch, but will change as new fixes and sometimes features are added. It doesn't have the same feature stability a release.
