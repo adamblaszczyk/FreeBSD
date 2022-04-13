@@ -1,4 +1,5 @@
 cc - clang - the Clang C, C++, and Objective-C compiler
+2020-02-29 - Clang staje się jedynym kompilatorem C w podstawowym systemie FreeBSD , po usunięciu GCC
 
 -------------------------------------------------------------------------
                                hello.c
@@ -15,6 +16,8 @@ int main() {
 
 Kompilacja i konsolidacja (linkowanie)
 # cc hello.c -o hello
+lub
+# clang hello.c -o hello
 
 Kompilacja a następnie linkowanie
 # cc -c hello.c
