@@ -25,3 +25,6 @@ Kompilacja i linkowanie ze wszystkimi ostrzeżeniami
 
 Kompilacja z bibliotekami
 # cc app.c -o app -lname
+Przykład:
+# cc colorbars.c -o colorbars -lncurses
+- dołącza(?) bibliotekę /usr/lib/libncurses.a 
