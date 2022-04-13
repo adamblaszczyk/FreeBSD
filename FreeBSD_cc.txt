@@ -31,8 +31,9 @@ Przykład:
 
 Opcje kompilatora cc
 --------------------
--c           - tylko kompilacja
+-c           - tylko kompilacja - powstaje plik .o (plik obiektowy)
 -lname       - dołączenie(?) biblioteki libname.a np. -lncurses
 -o           - plik wyjściowy
+-S           - tylko kompilacja do assemblera - powstaje plik .s (assembler)
 -v           - więcej informacji przy kompilacji (verbose)
 -Wall        - wykrywanie wszystkich ostrzeżeń
