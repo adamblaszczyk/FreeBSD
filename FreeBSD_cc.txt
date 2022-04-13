@@ -1,0 +1,27 @@
+cc - clang - the Clang C, C++, and Objective-C compiler
+
+-------------------------------------------------------------------------
+                               hello.c
+-------------------------------------------------------------------------
+#include <stdio.h>
+
+int main() {
+  
+  printf("Hello World!\n");
+  return 0;
+  
+}
+-------------------------------------------------------------------------
+
+Kompilacja i konsolidacja (linkowanie)
+# cc hello.c -o hello
+
+Kompilacja a następnie linkowanie
+# cc -c hello.c
+# cc hello.o -o hello
+
+Kompilacja i linkowanie ze wszystkimi ostrzeżeniami
+# cc hello.c -o hello -Wall
+
+Kompilacja z bibliotekami
+# cc app.c -o app -lname
