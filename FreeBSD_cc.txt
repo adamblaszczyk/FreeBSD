@@ -28,3 +28,11 @@ Kompilacja z bibliotekami
 Przykład:
 # cc colorbars.c -o colorbars -lncurses
 - dołącza(?) bibliotekę /usr/lib/libncurses.a 
+
+Opcje kompilatora cc
+--------------------
+-c           - tylko kompilacja
+-lname       - dołączenie(?) biblioteki libname.a np. -lncurses
+-o           - plik wyjściowy
+-v           - więcej informacji przy kompilacji (verbose)
+-Wall        - wykrywanie wszystkich ostrzeżeń
