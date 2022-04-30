@@ -207,6 +207,11 @@ mount - montowanie systemu plików
 # mount -t ext2fs -o ro /dev/ada0s5 /mnt/linux
 - zamontowanie linuksowego systemu plików EXT4, tylko do odczytu
 
+ntpdate - synchronizacja czasu poprzez protokół NTP (UDP port 123)
+-------
+# ntpdate ntp.nask.pl
+# ntpdate 195.187.245.55
+
 pciconf - informacja o urządzeniach PCI/AGP
 -------
 # pciconf -lv
