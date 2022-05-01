@@ -39,8 +39,8 @@ W pliku /etc/rc.conf dopisać:
   sendmail_enable="NONE"
 
 
-Wyłączenie dźwięku BEEP przy naciskaniu klawiszy BKSP, TAB, ...
-===============================================================
+Wyłączenie dźwięku BEEP przy naciskaniu klawiszy BKSP, TAB, ... w konsolach tekstowych
+======================================================================================
 Na chwilę
 # kbdcontrol -b quiet.off
 
@@ -48,6 +48,13 @@ Na stałe
 W pliku /etc/rc.conf dopisać:
 
   allscreens_kbdflags="-b quiet.off"
+
+
+Wyłączenie dźwięku BEEP przy naciskaniu klawiszy BKSP, TAB, ... w X-ach
+=======================================================================
+W pliku .xinitrc dopisać na początku:
+
+  xset b 0
 
 
 Nie działają słuchawki
