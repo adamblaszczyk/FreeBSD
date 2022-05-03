@@ -1,0 +1,20 @@
+Fluxbox
+=======
+
+Fluxbox – menedżer okien dla X Window System.
+Priorytetem Fluxboksa jest lekkość oraz wysoka konfigurowalność. Zapewnia on tylko minimum interfejsu graficznego w postaci paska narzędzi i uruchamianego prawym przyciskiem myszy menu. Na pasek narzędzi składa się wyświetlenie nazwy obecnie używanego obszaru roboczego, lista otwartych okien, aktualny czas oraz tacka systemowa, w której dokowane są aplikacje.
+ą
+Pliki konfiguracyjne
+--------------------
+~/.fluxbox/init    - plik konfiguracyjny fluxboxa
+~/.fluxbox/keys    - skróty klawiszowe
+~/.fluxbox/menu    - układ menu
+~/.fluxbox/startup - to co jest uruchamiane przy starcie
+
+Ustawianie tapety
+-----------------
+1. Instalujemy przeglądarkę plików graficznych np:
+   # pkg install feh
+2. Ustawiamy na stałe tapetę:
+   # fbsetbg -f /var/data/wallpaper.jpg
+ 
