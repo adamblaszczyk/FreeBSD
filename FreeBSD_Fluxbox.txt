@@ -2,7 +2,12 @@ Fluxbox
 =======
 
 Fluxbox – menedżer okien dla X Window System.
-Priorytetem Fluxboksa jest lekkość oraz wysoka konfigurowalność. Zapewnia on tylko minimum interfejsu graficznego w postaci paska narzędzi i uruchamianego prawym przyciskiem myszy menu. Na pasek narzędzi składa się wyświetlenie nazwy obecnie używanego obszaru roboczego, lista otwartych okien, aktualny czas oraz tacka systemowa, w której dokowane są aplikacje.
+Priorytetem Fluxboxa jest lekkość oraz wysoka konfigurowalność. Zapewnia on tylko minimum interfejsu graficznego w postaci paska narzędzi i uruchamianego prawym przyciskiem myszy menu. Na pasek narzędzi składa się wyświetlenie nazwy obecnie używanego obszaru roboczego, lista otwartych okien, aktualny czas oraz tacka systemowa, w której dokowane są aplikacje.
+
+Uruchamianie
+------------
+~/.xinitrc
+  exec startfluxbox
 
 Pliki konfiguracyjne
 --------------------
