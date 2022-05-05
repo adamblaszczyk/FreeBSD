@@ -17,4 +17,9 @@ Ustawianie tapety
    # pkg install feh
 2. Ustawiamy na stałe tapetę:
    # fbsetbg -f /var/data/wallpaper.jpg
+   
+Polska klawiatura programisty
+-----------------------------
+W pliku ~/.xinitrc dopisujemy (przed exec startfluxbox):
+  setxkbmap pl
  
