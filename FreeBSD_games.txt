@@ -1,0 +1,16 @@
+2048
+2048-qt
+# pkg install 2048-qt
+
+Ballerburg
+ballerburg (X)
+# pkg install ballerburg
+
+Mahjong
+xmahjongg (X)
+# pkg install xmahjongg
+
+Sokoban
+xsokoban (X)
+# pkg install xsokoban
+
