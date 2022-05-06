@@ -27,4 +27,13 @@ Polska klawiatura programisty
 -----------------------------
 W pliku ~/.xinitrc dopisujemy (przed exec startfluxbox):
   setxkbmap pl
+  
+LUB
+/usr/local/etc/X11/xorg.conf.d/keyboard.conf:
+
+Section "InputClass"
+    Identifier    "All Keyboards"
+    MatchIsKeyboard    "yes"
+    Option        "XkbLayout" "pl"
+EndSection
  
