@@ -2,9 +2,17 @@
 2048-qt
 # pkg install 2048-qt
 
+Atomix
+atomix (X)
+# pkg install atomix
+
 Ballerburg
 ballerburg (X)
 # pkg install ballerburg
+
+Einstein
+einstein (X)
+# pkg install einstein
 
 Mahjong
 xmahjongg (X)
@@ -14,3 +22,6 @@ Sokoban
 xsokoban (X)
 # pkg install xsokoban
 
+Tron 3D
+armagetronad (X)
+# pkg install armagetronad
