@@ -123,8 +123,9 @@ loader.conf - system bootstrap configuration information - zmienne ustawiające 
 ===================================================================================================================
 /boot/defaults/loader.conf - zmienne domyślne, nie powinno się edytować!!!
 /boot/loader.conf - zmienne użytkownika
+-----------------
 
-acpi_video_load="NO"       Load the ACPI video extension driver 
+  acpi_video_load="NO"       Load the ACPI video extension driver 
 
 
 Zmiana ustawień sieciowych
