@@ -117,7 +117,15 @@ https://www.freebsd.org/cgi/man.cgi?rc.conf(5)
   Plik /etc/rc.conf można edytować ręcznie lub komendą sysrc:
   # sysrc hald_enable=YES
   --> hald_enable="YES"
-  
+
+
+loader.conf - system bootstrap configuration information - zmienne ustawiające zachowanie systemu podczas ładowania
+===================================================================================================================
+/boot/defaults/loader.conf - zmienne domyślne, nie powinno się edytować!!!
+/boot/loader.conf - zmienne użytkownika
+
+acpi_video_load="NO"       Load the ACPI video extension driver 
+
 
 Zmiana ustawień sieciowych
 ==========================
