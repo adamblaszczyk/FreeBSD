@@ -121,6 +121,7 @@ https://www.freebsd.org/cgi/man.cgi?rc.conf(5)
 
 loader.conf - system bootstrap configuration information - zmienne ustawiające zachowanie systemu podczas ładowania
 ===================================================================================================================
+https://wiki.ghostbsd.org/index.php//boot/defaults/loader.conf
 /boot/defaults/loader.conf - zmienne domyślne, nie powinno się edytować!!!
 /boot/loader.conf - zmienne użytkownika
 -----------------
