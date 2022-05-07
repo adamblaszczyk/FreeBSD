@@ -1,5 +1,15 @@
 # man hier
 
+/boot/               - programs and configuration files used during operating system bootstrap
+                     - programy i pliki konfiguracyjne używane podczas ładowania systemu operacyjnego
+
+/boot/loader.conf    - system bootstrap configuration information (user defined settings)
+                     - zmienne (użytkownika) ustawiające zachowanie systemu podczas ładowania
+
+/boot/defaults/loader.conf   - system bootstrap configuration information
+                             - zmienne ustawiające zachowanie systemu podczas ładowania
+                               (nie powinno się edytować tego pliku!!!)
+                             
 ---------------------------------------------------------------------------------------------------------------------------------
 /etc/                - system configuration files and scripts
                      - pliki konfiguracyjne systemu i skrypty
