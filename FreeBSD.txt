@@ -125,7 +125,8 @@ loader.conf - system bootstrap configuration information - zmienne ustawiające 
 /boot/loader.conf - zmienne użytkownika
 -----------------
 
-  acpi_video_load="NO"       Load the ACPI video extension driver 
+  acpi_video_load="NO"       # Load the ACPI video extension driver
+                             # Zarządzanie energią karty graficznej np. wygaszanie ekranu
 
 
 Zmiana ustawień sieciowych
