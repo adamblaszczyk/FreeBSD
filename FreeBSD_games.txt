@@ -2,6 +2,10 @@
 2048-qt
 # pkg install 2048-qt
 
+Abbaye des Morts
+abbayev2 (X)
+#pkg install abbayedesmorts
+
 Atomix
 atomix (X)
 # pkg install atomix
