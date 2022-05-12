@@ -32,6 +32,9 @@ Przykład:
 # cc colorbars.c -o colorbars -lncurses
 - dołącza(?) bibliotekę /usr/lib/libncurses.a 
 
+Kompilacja ze wskazaniem na ścieżki plików naglówkowych .h oraz bibliotek (na przykładzie SDL2)
+# cc app.c -I/usr/local/include -L/usr/local/lib -lSDL2
+
 Opcje kompilatora cc
 --------------------
 -c           - tylko kompilacja - powstaje plik .o (plik obiektowy)
