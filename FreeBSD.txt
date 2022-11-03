@@ -251,6 +251,11 @@ vidcontrol - ustawienia konsoli tekstowej
 - ustawienie dane trybu karty graficznej dla konsoli (najlepiej wybrać tryb dostosowany do natywnej rozdzielczości matrycy)
 /etc/rc.conf: allscreens_flags="MODE_32"
 
+wake - włączanie zdalnej maszyny przez Wake on LAN
+----
+# wake 00:11:32:11:15:fc
+# wake em0 00:11:32:11:15:fc
+
 whereis - lokalizuje ścieżki programów, ich manuali i źródeł
 -------
 
